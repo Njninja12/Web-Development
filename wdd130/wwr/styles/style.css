@@ -32,7 +32,7 @@ header {
     color: white;
     background-color: #fbb13c;
 }
-.icon {
+.icon, #logo {
     width: 80px;
 }
 #hero-msg h1, #hero-msg h4 {
