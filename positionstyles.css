@@ -47,17 +47,19 @@
   width: 100px; 
   height: 100px; 
   background-color: green;
-  grid-column: 25px/75px;
+  margin-bottom: 50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  margin-bottom: 100px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  margin-bottom: 150px;
 } 
 /* Activity 3 styles */ 
 .content3 {
