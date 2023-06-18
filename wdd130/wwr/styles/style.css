@@ -183,6 +183,63 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+/* ------------------------------------------Rates & Dates--------------------------------------------------------*/
+#rates-msg {
+    text-align: center;
+    color: #2596be;
+}
+.rates-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+#rates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pricing {
+    font-size: 150%;
+    color: black;
+}
+.grand-canyon {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.grand3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    color: #2596be;
+    margin: 20px;
+}
+.grand6 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    color: #2596be;
+    margin: 20px;
+}
+.salmon-river {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.salmon {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    color: #2596be;
+    margin: 20px;
+}
+.desolation-river{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.desolation {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    color: #2596be;
+    margin: 20px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
