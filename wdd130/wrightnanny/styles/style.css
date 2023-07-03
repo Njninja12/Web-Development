@@ -1,3 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    text-align: center;
+}
+h2 {
+    font-family: 'Roboto', 'sans-serif';
+}
+.logo {
+    width: 100px;
+}
+.hero-msg{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 50px;
+}
+.hero-msg h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
 .hero-img {
-    width: 200px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 50px;
+}
+.bio-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 50px;
+}
+.bio-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-bottom: 100px;
+}
+.nanny-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-right: 50px;
+}
+.nanny-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.cleaning-msg {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.cleaning-img {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+body {
+    background-color: white;
+    color: #1C2E87;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FF7FB2;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: white;
+    background-color: #1C2E87;
+}
+footer {
+    background-color: #FF7FB2;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer a {
+    color: #1C2E87;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #4D636A;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+/*--------------------------------Cleaning-----------------------------------*/
+.clean-msg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 50px;
+}
+.clean-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 50px;
+}
+.types-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 50px;
+}
+.types-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 50px;
+}
+.organize-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 50px;
+}
+.organize-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 50px;
+}
+/*-----------------------------Nanny--------------------------------*/
+.main-msg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 50px;
+}
+.main-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 25px;
+}
+.skills-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 25px;
+}
+.skills-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 25px;
+}
+.people-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 50px;
+    margin-right: 150px;
+}
+.people-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 50px;
 }
