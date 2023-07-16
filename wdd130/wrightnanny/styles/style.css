@@ -6,14 +6,16 @@
 .container {
     position: relative;
     width: 50%;
+    margin: auto;
   }
   
   .image {
     display: block;
     width: 100%;
-    height: auto;
-    padding-bottom: 100px;
-    
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 50px;
+    align-items: center;
   }
   
   .overlay {
@@ -62,7 +64,7 @@ p {
 .hero-msg{
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 50px;
+    padding: 50px;
 }
 .hero-msg h1 {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
@@ -70,11 +72,19 @@ p {
 .hero-img {
     grid-column: 2/3;
     grid-row: 1/2;
+    margin: auto;
 }
-.bio-msg {
+/*.bio-msg {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-right: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}*/
+.bio-msg img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
 }
 .bio-img {
     grid-column: 1/2;
@@ -84,11 +94,13 @@ p {
 .nanny-msg {
     grid-column: 2/3;
     grid-row: 3/4;
-    margin-right: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 .nanny-img {
     grid-column: 1/2;
     grid-row: 3/4;
+    padding-bottom: 50px;
 }
 .cleaning-msg {
     grid-column: 1/2;
